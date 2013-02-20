@@ -1,0 +1,352 @@
+/*
+Theme Name: Music
+Author: Marcus Battle
+Author URI: http://marcusattle.com
+*/
+
+* {
+	box-sizing: border-box; 
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+	font-size: 100%; }
+a,
+input[type="submit"] {
+	cursor: pointer;
+	text-decoration: none;
+	-webkit-transition: all 1s ease; }
+
+h1 {
+	font-size: 50px;
+	font-weight: 100; }
+h2 {
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 120%;
+	margin-bottom: 20px; }
+h2.title {
+	text-transform: uppercase;
+	font-size: 30px; }
+h3 {
+	margin-bottom: 10px; }
+p {
+	font-size: 15px;
+	line-height: 145%;
+	margin: 18px 0; }
+super {
+	vertical-align: top;
+	font-size: 20px;
+	line-height: inherit; }	
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none; }
+iframe {
+	width: 100%; }
+
+header, 
+section, 
+.section {
+	position: relative;
+	clear: both;
+	overflow: hidden;
+	background-size: cover;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	width: 100%; }
+.container, 
+section > .wrap,
+footer > .wrap {
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 50px; }
+header {
+	margin-bottom: 40px; }
+	
+section header .wrap {
+	max-width: 1000px;
+	padding: 40px 0; 
+	margin: 0 auto; }
+
+section#navigation { 
+	height: 44px; 
+	position: fixed;
+	z-index: 10;
+	background: #ffc700;
+	background: url('images/nav-black.png'); }
+	section#navigation .wrap {
+		height: 100%; }
+section#concert {
+	background: #171717;
+	background-image: url('images/civil-rights-museum.jpg');
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	color: #666666; }
+	section#concert header {
+		border-bottom: 1px solid #333; }
+	section#concert h1,
+	section#concert h2,
+	section#concert h3 {
+		color: #d2d2d2; }
+section#home {
+	background-color: #171717;
+	background-image: url('images/web-banner-red.jpg');
+	height: 600px; }
+section#social {
+	background: #171717;
+	color: #666666; }
+	section#social header {
+		border-bottom: 1px solid #333; }
+	section#social h1,
+	section#social h2 {
+		color: #d2d2d2; }
+section#home .wrap {
+	height: 100%; }
+footer#footer {
+	background: #F1F1F2; 
+	height: 150px;
+	padding-top: 20px; }
+section#bio {
+	background-color: black;
+	background-image: url('images/web-banner-bio.jpg');
+	color: white; }
+section#bio header { 
+	border-bottom: 1px solid #7c5e27; }
+section#booking header {
+		border-bottom: 1px solid #F1F1F2; }
+section#booking a {
+	color: #171717;
+	font-weight: bold; }
+			
+.span2 {
+	width: 20%;
+	margin-right: 20px; }
+.span3 {
+	width: 30%;
+	margin-right: 20px; }		
+.span4 {
+	width: 40%;
+	margin-right: 20px; }	
+.span5 {
+	width: 50%;
+	margin-right: 20px; }
+.left {
+	float: left;
+	margin-left: 0; }
+.right {
+	float: right;
+	margin-right: 0; }	
+	
+.brand { 
+	color: white; 
+	position: absolute; 
+	top: 13px;
+left: 10px;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 200; }
+.brand img {
+	width: 16px;
+	height: inherit; }
+.nav {
+	list-style: none;
+	color: white;
+	position: absolute;
+	right: 0;
+	font-size: 13px; }
+.nav li {
+	float: left;
+	font-weight: 200; }
+.nav li a {
+	display: block;
+	padding: 14px;
+	color: white; }
+.nav li a:hover,
+.nav li a.selected {
+	/* background: #a22b2a;
+	background: #ffc700; */
+	background: url('images/nav-yellow.png'); }
+	
+#stamp {
+	position: absolute;
+	width: 525px;
+	top: 110px;
+	z-index: 1;
+	left: 290px; }
+#stamp img {
+	max-width: 100%;
+	height: inherit; }
+#live-concert {
+	position: absolute;
+	top: 300px;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	left: 415px;
+	margin: 0; }
+#details {
+	left: 313px;
+	position: absolute;
+	top: 360px;
+	width: 470px;
+	color: white;
+	font-size: 22px; 
+	font-weight: 100;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	margin: 0; }
+	
+#civil-logo {
+	opacity: .1;
+	display: block; }
+#civil-logo:hover {
+	opacity: .5; }
+			
+#get-ticket {
+	position: absolute;
+	top: 425px;
+	width: 250px;
+	left: 426px;
+	background: #a22b2a; }
+.btn { 
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	color: white;
+	background: #666;
+	width: 250px; 
+	font-weight: 600;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block; }
+label {
+	color: #9c9c9c;
+	display: block;
+	font-size: 13px; 
+	line-height: 22px; }
+.space {
+	margin-top: 27px; }
+input,
+select {
+	background: #d2d2d2;
+	height: 40px;
+	border: none;
+	width: 250px;
+	border-radius: 5px;
+	font-weight: 200;
+	padding: 0 15px; }
+input.small,
+select.small {
+	width: 60px; }
+input.medium,
+select.medium {
+	width: 123px; }
+input.full,
+select.full {
+	width: 100%; }
+input.error {
+	border: 2px solid #daab27; }
+.payment.errors {
+	color: #b94a48;
+	background-color: #f2dede;
+	border-color: #eed3d7;
+	border-radius: 5px;
+	padding: 10px;
+	display: none;
+	margin-top: 10px;
+	font-size: 15px;
+	width: 100%; }
+.payment.success {
+	color: #468847;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	border-radius: 5px;
+	padding: 10px;
+	display: none;
+	margin-top: 10px;
+	font-size: 15px;
+	width: 100%; }
+::-webkit-input-placeholder { color: #888; }
+:-moz-placeholder { color: #888; }
+::-moz-placeholder { color: #888; }
+:-ms-input-placeholder { color: #888; }
+
+#ticket-form {
+	margin-bottom: 30px;
+	display: block; }
+#ticket-form a {
+	color: white;
+	font-weight: bold; }
+
+ul.form {
+	list-style: none; }
+ul.form li {
+	margin-bottom: 10px; }
+	
+#buy-ticket {
+	background: #daab27; }	
+	
+.lock {
+	margin-top: 6px;
+	position: absolute;
+	display: inline-block;
+	opacity: .7;
+	margin-left: 5px; }
+.gold-text {
+	color: #daab27; }	
+.clear {
+	clear: both; }
+	
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {  }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {  }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	section {
+		background-size: contain; } 
+	section#home {
+		height: 520px; }
+	
+	section > header {
+		padding-left: 15px; }
+	
+	.span2,
+	.span3,
+	.span4,
+	.span5 {
+		float: none;
+		width: 100%;
+		margin: 0; }
+
+	.wrap {
+		padding: 0 15px; }
+	
+	#stamp {
+		left: 0;
+		width: 100%; }
+	#live-concert {
+		left: 0;
+		font-size: 30px;
+		top: 260px;
+		width: 100%; }
+	#details {
+		left: -5px;
+		width: 100%;
+		top: 320px; }
+	#get-ticket {
+		left: 0;
+		width: 93%;
+		margin: 0 10px; }
+		
+	.nav > li:first-child {
+		display: none; }
+}
