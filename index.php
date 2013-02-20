@@ -22,6 +22,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	
 	<meta property="og:image" content="<?php bloginfo('template_url');?>/images/emergency-cover-save-the-date.jpg" />
+	<meta property="og:site_name" content="Official Website of Tammy Battle"/>
 	
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<script type="text/javascript" src="https://js.stripe.com/v1/"></script>
