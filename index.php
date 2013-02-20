@@ -106,9 +106,9 @@
 		<header><div class="wrap"><h1>Bio</h1></div></header>
 		<div class="wrap">
 			<div class="span5">
-				<p>A songwriter at heart, Tammy Battle has writen and composed numerous songs for churches and individuals in an attempt to enhance their understand and relationship with God. She has been gifted with a unique ability to write music that doesn't discriminate, but reaches people of various backgrounds and serves as a tool of comfort and healing.</p>
+				<p>A songwriter at heart, Tammy Battle has writen and composed numerous songs for churches and individuals in an attempt to enhance their understanding and relationship with God. She has been gifted with a unique ability to write music that doesn't discriminate, but reaches people of various backgrounds and serves as a tool of comfort and healing.</p>
 			
-				<p>Growing up in a musically family where her father played organ, mother sang and brothers played whatever instruments they could find, home was a sort of musical playground and an obvious source of musical influence. Decorated with keyboards, amps, an organ, mics and speakers, it was easy for Tammy to discover music at an early age and carve out her special niche. Although it was expected for her to follow certain instruments, a special connection was found with the piano. It was with the piano that she would discover a souful way to speak to hearts through music and help listener's hear God's thoughts about their situations.</p>
+				<p>Growing up in a musical family where her father played organ, mother sang and brothers played whatever instruments they could find, home was a sort of musical playground and an obvious source of musical influence. Decorated with keyboards, amps, an organ, mics and speakers, it was easy for Tammy to discover music at an early age and carve out her special niche. Although it was expected for her to follow certain instruments, a special connection was found with the piano. It was with the piano that she would discover a souful way to speak to hearts through music and help listener's hear God's thoughts about their situations.</p>
 				<p>While singing with the piano always makes her day, a recent return back to the organ and new found love for the acoustic guitar is opening up a new freedom of expression sure to captivate new audiences.</p>
 			</div>
 		</div>
