@@ -20,6 +20,9 @@
 	<title>Tammy Battle Presents "Emergency Live" at The Civil Rights Center &amp; Museum, Greensboro, NC</title>
 	<meta name="description" content="Awesome Description Here">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	
+	<meta property="og:image" content="<?php bloginfo('template_url');?>/images/emergency-cover-save-the-date.jpg" />
+	
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<script type="text/javascript" src="https://js.stripe.com/v1/"></script>
 	<? if ($_SERVER['HTTP_HOST'] == 'tammybattle.com') : ?>
