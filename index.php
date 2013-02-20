@@ -17,7 +17,7 @@
 
 <html>
 <head>
-	<title>Tammy Battle Presents "Emergency Live" at The Civil Rights Center &amp; Museum, Greensboro, NC</title>
+	<title>Tammy Battle Presents "Emergency Live" at The International Civil Rights Center &amp; Museum, Greensboro, NC</title>
 	<meta name="description" content="Singer-Songwriter Tammy Battle, known for her sincere praise & worship and soulful tones, will grace the stage in her first solo concert on April 6th, 2013. At 6:30PM, guests from North Carolina and beyond will join together in the International Civil Rights Center & Museum (Greensboro, NC) to witness history being made.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	
