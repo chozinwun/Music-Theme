@@ -157,11 +157,9 @@
 </html>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url');?>/html5shiv.js"></script>
 <script>
 $(document).ready(function() {
-	document.createElement("footer");  
-	document.createElement("section");
-	document.createElement("header");
 
 	$('input[name="phone"]').mask('(999) 999-9999');
 	$('.card-number').mask('9999 9999 9999 9999');
