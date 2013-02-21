@@ -158,6 +158,7 @@
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/jquery.maskedinput.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/modernizer.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url');?>/jquery.placeholder.min.js"></script>
 <script>
 $(document).ready(function() {
 	$('input, textarea').placeholder();
