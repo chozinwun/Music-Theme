@@ -14,7 +14,8 @@ a,
 input[type="submit"] {
 	cursor: pointer;
 	text-decoration: none;
-	-webkit-transition: all 1s ease; }
+	-webkit-transition: all 1s ease;
+	-webkit-appearance:none; }
 
 h1 {
 	font-size: 50px;
