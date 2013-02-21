@@ -160,7 +160,8 @@
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/modernizer.js"></script>
 <script>
 $(document).ready(function() {
-
+	$('input, textarea').placeholder();
+	
 	$('input[name="phone"]').mask('(999) 999-9999');
 	$('.card-number').mask('9999 9999 9999 9999');
 	

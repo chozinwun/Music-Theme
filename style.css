@@ -15,8 +15,9 @@ input[type="submit"] {
 	cursor: pointer;
 	text-decoration: none;
 	-webkit-transition: all 1s ease;
-	-webkit-appearance:none; }
-
+	-webkit-appearance:none;
+	outline: none; }
+img {border : 0;}
 h1 {
 	font-size: 50px;
 	font-weight: 100; }
