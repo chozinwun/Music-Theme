@@ -31,6 +31,9 @@
 	<? else: ?>
 	<script type="text/javascript">Stripe.setPublishableKey('pk_test_KDC771WfdObjEC2TN7jHP3FE');</script>
 	<? endif; ?>
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 <body>
 	<section id="navigation">
@@ -157,7 +160,6 @@
 </html>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/jquery.maskedinput.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url');?>/modernizer.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url');?>/jquery.placeholder.min.js"></script>
 <script>
 $(document).ready(function() {
