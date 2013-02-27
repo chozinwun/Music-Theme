@@ -36,7 +36,7 @@
 	<![endif]-->
 </head>
 <body>
-	<section id="navigation">
+	<div id="navigation" class="section">
 		<div class="wrap">
 			<div class="brand"><a href="#home"><img src="<?php bloginfo('template_url');?>/images/brand.png" /></a></div>
 			<ul class="nav">
@@ -48,8 +48,8 @@
 				<li><a href="#booking">Contact</a></li>
 			</ul>
 		</div>
-	</section>
-	<section id="home">
+	</div>
+	<div id="home" class="section">
 		<div class="wrap">
 			<div id="stamp"><img src="<?php bloginfo('template_url');?>/images/emergency-stamp.png" /></div>
 			<p id="live-concert">LIVE CONCERT</p>
@@ -59,9 +59,9 @@
 			</p>
 			<a class="btn" id="get-ticket" href="#concert">Buy Ticket</a>
 		</div>
-	</section>
-	<section id="concert" class="section">
-		<header><div class="wrap"><h1>Make History</h1></div></header>
+	</div>
+	<div id="concert" class="section">
+		<div class="header"><div class="wrap"><h1>Make History</h1></div></div>
 		<div class="wrap">
 			<span class="span4 right" style="margin-right: 15px;">
 				<h2>Reserve Your Seat</h2>
@@ -108,9 +108,9 @@
 			</div>
 			<div class="clear"></div>
 		</div>
-	</section>
-	<section id="bio" class="section">
-		<header><div class="wrap"><h1>Bio</h1></div></header>
+	</div>
+	<div id="bio" class="section">
+		<div class="header"><div class="wrap"><h1>Bio</h1></div></div>
 		<div class="wrap">
 			<div class="span5">
 				<p>A songwriter at heart, Tammy Battle has written and composed numerous songs for churches and individuals in an attempt to enhance their understanding and relationship with God. She has been gifted with a unique ability to write music that doesn't discriminate, but reaches people of various backgrounds and serves as a tool of comfort and healing.</p>
@@ -119,9 +119,9 @@
 				<p>While singing with the piano always makes her day, a recent return back to the organ and new found love for the acoustic guitar is opening up a new freedom of expression sure to captivate new audiences.</p>
 			</div>
 		</div>
-	</section>
-	<section id="social" class="section">
-		<header><div class="wrap"><h1>Listen</h1></div></header>
+	</div>
+	<div id="social" class="section">
+		<div class="header"><div class="wrap"><h1>Listen</h1></div></div>
 		<div class="wrap">
 			<div class="span2 left">
 				<p>It's always great to come to a concert and be able to sing along. While you wait for the concert, learn some of Tammy's music here and discover her unique style.</p>
@@ -135,9 +135,9 @@
 			</div>
 			<div class="clear"></div>
 		</div>
-	</section>
-	<section id="booking" class="section">
-		<header><div class="wrap"><h1>Contact</h1></div></header>
+	</div>
+	<div id="booking" class="section">
+		<div class="header"><div class="wrap"><h1>Contact</h1></div></div>
 		<div class="wrap">
 			<div class="span5 left">
 				<h2>Booking</h2>
@@ -148,8 +148,8 @@
 					<p>If you are experiencing issues purchasing a ticket, please email your issue along with daytime phone number to <a href="mailto:booking@tammybattle.com">booking@tammybattle.com</a>. Please allow up to 24hrs for response.</p>
 				</div>
 		</div>
-	</section>
-	<footer id="footer" class="section">
+	</div>
+	<div id="footer" class="footer section">
 		<div class="wrap">
 			<p>&copy; <?= date('Y');?> Tammy Battle. All rights reserved.</p>
 		</div>

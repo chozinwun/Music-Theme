@@ -58,67 +58,67 @@ section,
 	background-repeat: no-repeat;
 	width: 100%; }
 .container, 
-section > .wrap,
+.section > .wrap,
 footer > .wrap {
 	max-width: 1000px;
 	margin: 0 auto;
 	position: relative;
 	padding-bottom: 50px; }
-header {
+.header {
 	margin-bottom: 40px; }
 	
-section header .wrap {
+.section .header .wrap {
 	max-width: 1000px;
 	padding: 40px 0; 
 	margin: 0 auto; }
 
-section#navigation { 
+.section#navigation { 
 	height: 44px; 
 	position: fixed;
 	z-index: 10;
 	background: #ffc700;
 	background: url('images/nav-black.png'); }
-	section#navigation .wrap {
+	.section#navigation .wrap {
 		height: 100%; }
-section#concert {
+.section#concert {
 	background: #171717;
 	background-image: url('images/civil-rights-museum.jpg');
 	background-position-y: bottom;
 	background-repeat: no-repeat;
 	color: #666666; }
-	section#concert header {
+	.section#concert header {
 		border-bottom: 1px solid #333; }
-	section#concert h1,
-	section#concert h2,
-	section#concert h3 {
+	.section#concert h1,
+	.section#concert h2,
+	.section#concert h3 {
 		color: #d2d2d2; }
-section#home {
+.section#home {
 	background-color: #171717;
 	background-image: url('images/web-banner-red.jpg');
 	height: 600px; }
-section#social {
+.section#social {
 	background: #171717;
 	color: #666666; }
-	section#social header {
+	.section#social header {
 		border-bottom: 1px solid #333; }
-	section#social h1,
-	section#social h2 {
+	.section#social h1,
+	.section#social h2 {
 		color: #d2d2d2; }
-section#home .wrap {
+.section#home .wrap {
 	height: 100%; }
-footer#footer {
+.footer#footer {
 	background: #F1F1F2; 
 	height: 150px;
 	padding-top: 20px; }
-section#bio {
+.section#bio {
 	background-color: black;
 	background-image: url('images/web-banner-bio.jpg');
 	color: white; }
-section#bio header { 
+.section#bio header { 
 	border-bottom: 1px solid #7c5e27; }
-section#booking header {
+.section#booking header {
 		border-bottom: 1px solid #F1F1F2; }
-section#booking a {
+.section#booking a {
 	color: #171717;
 	font-weight: bold; }
 			
