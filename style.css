@@ -47,8 +47,7 @@ button:focus {
 iframe {
 	width: 100%; }
 
-header, 
-section, 
+.header, 
 .section {
 	position: relative;
 	clear: both;
@@ -59,7 +58,7 @@ section,
 	width: 100%; }
 .container, 
 .section > .wrap,
-footer > .wrap {
+.footer > .wrap {
 	max-width: 1000px;
 	margin: 0 auto;
 	position: relative;
@@ -86,7 +85,7 @@ footer > .wrap {
 	background-position-y: bottom;
 	background-repeat: no-repeat;
 	color: #666666; }
-	.section#concert header {
+	.section#concert .header {
 		border-bottom: 1px solid #333; }
 	.section#concert h1,
 	.section#concert h2,
@@ -99,7 +98,7 @@ footer > .wrap {
 .section#social {
 	background: #171717;
 	color: #666666; }
-	.section#social header {
+	.section#social .header {
 		border-bottom: 1px solid #333; }
 	.section#social h1,
 	.section#social h2 {
@@ -114,9 +113,9 @@ footer > .wrap {
 	background-color: black;
 	background-image: url('images/web-banner-bio.jpg');
 	color: white; }
-.section#bio header { 
+.section#bio .header { 
 	border-bottom: 1px solid #7c5e27; }
-.section#booking header {
+.section#booking .header {
 		border-bottom: 1px solid #F1F1F2; }
 .section#booking a {
 	color: #171717;
