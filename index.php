@@ -98,7 +98,7 @@
 				<p>At 6:30PM, guests from North Carolina and beyond will join together in the International Civil Rights Center &amp; Museum (Greensboro, NC) to witness history being made.</p>
 				<p>During this "red-carpeted event," guests will enjoy original songs set to soulful, acoustic-pop melodies, led by Tammy Battle, area artists and musicians.</p>
 			</div>
-			<div class="span3">
+			<div class="span3 left">
 				<p>&nbsp;</p>
 				<h2>Historic Venue</h2>
 				<p>International Civil Rights Center &amp; Museum<br />134 S. Elm Street<br /> Greensboro, NC</p>
