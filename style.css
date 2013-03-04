@@ -309,16 +309,23 @@ ul.form li {
 @media (min-width: 768px) and (max-width: 979px) {  }
  
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {  }
+@media (max-width: 767px) { 
+	.container, 
+	.section .wrap, 
+	.footer .wrap,
+	.wrap {
+		padding: 0 15px;
+		width: 100%; }
+}
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
-	section {
+	.section {
 		background-size: contain; } 
-	section#home {
+	.section#home {
 		height: 520px; }
 	
-	section > header {
+	.section > .header {
 		padding-left: 15px; }
 	
 	.span2,
@@ -329,8 +336,12 @@ ul.form li {
 		width: 100%;
 		margin: 0; }
 
+	.container, 
+	.section .wrap, 
+	.footer .wrap,
 	.wrap {
-		padding: 0 15px; }
+		padding: 0 15px;
+		width: 100%; }
 	
 	#stamp {
 		left: 0;
